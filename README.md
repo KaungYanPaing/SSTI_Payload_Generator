@@ -1,7 +1,8 @@
 # SSTI Payload Generator
 Server-Side Template Injection Java ASCII Payload Generator
 
-
+Example
+========
 Input
 
 Enter Commands here - cat /etc/passwd
