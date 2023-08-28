@@ -18,7 +18,7 @@ def banner():
 	print('\t ==--==--==--==--==--==--==--==--==--==')
 	print('\t ==--==--==--==--==--==--==--==--==--==')
 	print('\t ==-- SSTI(java) Payload Generator --==')
-	print('\t ==--     Author : k4ung_k4ung     --==')
+	print('\t ==--  Author : k4ung_k4ung(H3x)   --==')
 	print('\t ==--==--==--==--==--==--==--==--==--==')
 	print('\t ==--==--==--==--==--==--==--==--==--==')
 	print('\n')
